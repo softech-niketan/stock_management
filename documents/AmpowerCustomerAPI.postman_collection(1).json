@@ -1,0 +1,2790 @@
+{
+	"info": {
+		"_postman_id": "6cee8e1f-7928-411c-a214-c9500e0165ec",
+		"name": "AmpowerCustomerAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Notification",
+			"item": [
+				{
+					"name": "Get New Notifications",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer b01c7b7fb2e0074f8a766e9b806e76782364c5929764fef85ada1ab7a2dbb630",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Notification/GetNewNotifications",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Notification",
+								"GetNewNotifications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Notification By Id ",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer 2916c6fb4d935a43c7dbec60bac91de4c047f9652af9af6714a616955f6fc153",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Notification/GetNotificationById/9a93ac92-086a-4a44-886c-eec816eb1902",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Notification",
+								"GetNotificationById",
+								"9a93ac92-086a-4a44-886c-eec816eb1902"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Notification Types",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 54928dc837a187551a3e84d7afd539039f676fd662214d5374ed0ad8683f2a87",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Notification/GetNotificationTypes",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Notification",
+								"GetNotificationTypes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Notification",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 60b7a363b7d55f04b19a9dec027ef35096c13ef36a33dfc87147c19d56700b6f",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"notificationType\": \"Billing\",\r\n  \"body\": \"Your bill for July month is generated successfully. Kindly pay on time.\"\r\n}"
+						},
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Notification/AddNotification",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Notification",
+								"AddNotification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Notification By UId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 61d5e1581af39ceb470fafcd4fba5ec4a19b679a3fb8a175b4562bc7a78d9fc4",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Notification/GetNotificationByUId/fa05f9e8-a31b-4667-8ee1-668fb7f339d1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Notification",
+								"GetNotificationByUId",
+								"fa05f9e8-a31b-4667-8ee1-668fb7f339d1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dismiss Notification",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2ccd22373def6eb535ea3a652e5ffd93f5e842b17fccd6403fd3c67e3e91df46",
+								"type": "text"
+							},
+							{
+								"key": "content",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Notification/DismissNotification/fa05f9e8-a31b-4667-8ee1-668fb7f339d1",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Notification",
+								"DismissNotification",
+								"fa05f9e8-a31b-4667-8ee1-668fb7f339d1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Payment",
+			"item": [
+				{
+					"name": "Get By Id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer 2916c6fb4d935a43c7dbec60bac91de4c047f9652af9af6714a616955f6fc153",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Payment/GetById/deb12a29-8136-435c-9cb8-62a0ff6f6e87",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Payment",
+								"GetById",
+								"deb12a29-8136-435c-9cb8-62a0ff6f6e87"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Payments By AccountId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer 9a5560f81d5c7edad27722a7e717ec75ec7869024c4bdb1d85137d58b2d5cabe",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Payment/GetPaymentsByAccount",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Payment",
+								"GetPaymentsByAccount"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Payments By ContractId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer d5026baa3261eca4d8897fb55d9340ed3a76fccb28698f6df38d3043496ddf6a",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Payment/GetPaymentsByContract/e6d66c7f-9ba1-4f0a-b98b-3833689e429c",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Payment",
+								"GetPaymentsByContract",
+								"e6d66c7f-9ba1-4f0a-b98b-3833689e429c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Payments",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer cacd4ea4ffe227d7233bf9dcd180d790b5f347ddb323afb9a2210ba3efe60299",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Payment",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Payment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Over Due Payment",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 7da128c3b46d4b331b309b1bfd33c0822c467a69e2a9bf659e18659f2e0d0e53",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetOverduePayments",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetOverduePayments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Payment Transactions",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer d5026baa3261eca4d8897fb55d9340ed3a76fccb28698f6df38d3043496ddf6a",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetAccountStatementForContract?contractUId=e6d66c7f-9ba1-4f0a-b98b-3833689e429c",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetAccountStatementForContract"
+							],
+							"query": [
+								{
+									"key": "contractUId",
+									"value": "e6d66c7f-9ba1-4f0a-b98b-3833689e429c"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Payments by E Meter",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 131ab88e8f7e953fd35d6fea38934921668c46c211895bce0ff47f4b18ea4116",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"meterNumber\": \"2400000947621\",\r\n  \"fromDate\": \"string\",\r\n  \"toDate\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44368/api/Payment/GetPaymentsByEMeter",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Payment",
+								"GetPaymentsByEMeter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Payments by G Meter",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 131ab88e8f7e953fd35d6fea38934921668c46c211895bce0ff47f4b18ea4116",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"meterNumber\": \"1000000000001\",\r\n  \"fromDate\": \"string\",\r\n  \"toDate\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44368/api/Payment/GetPaymentsByGMeter",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Payment",
+								"GetPaymentsByGMeter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Export Payments By EMeter",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 9a5560f81d5c7edad27722a7e717ec75ec7869024c4bdb1d85137d58b2d5cabe",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"meterNumber\": \"1012347943993\",\r\n  \"fromDate\": \"\",\r\n  \"toDate\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44368/api/Payment/ExportPaymentsByEMeter",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Payment",
+								"ExportPaymentsByEMeter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Export Payments By GMeter",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 9a5560f81d5c7edad27722a7e717ec75ec7869024c4bdb1d85137d58b2d5cabe",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"meterNumber\": \"1012347943993\",\r\n  \"fromDate\": \"\",\r\n  \"toDate\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44368/api/Payment/ExportPaymentsByGMeter",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Payment",
+								"ExportPaymentsByGMeter"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contract",
+			"item": [
+				{
+					"name": "Meters",
+					"item": [
+						{
+							"name": "Account Meter Details",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer 887252eddadfccbb5a80839535c82928827f2be8ffaea8e296833e07e19fa456",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://dev-customerportalapi.azurewebsites.net/api/Contract/AccountMeterDetails",
+									"protocol": "https",
+									"host": [
+										"dev-customerportalapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"Contract",
+										"AccountMeterDetails"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ProjectedUsage",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer 887252eddadfccbb5a80839535c82928827f2be8ffaea8e296833e07e19fa456",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"meterNumber\": \"1200051351643\",\n  \"meterType\": \"MPAN\",\n  \"fromDate\": \"2021-09-27T08:27:07.781Z\",\n  \"toDate\": \"2021-09-27T08:27:07.781Z\"\n}"
+								},
+								"url": {
+									"raw": "https://dev-customerportalapi.azurewebsites.net/api/Meter/ProjectedUsage",
+									"protocol": "https",
+									"host": [
+										"dev-customerportalapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"Meter",
+										"ProjectedUsage"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Similar Homes",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer 887252eddadfccbb5a80839535c82928827f2be8ffaea8e296833e07e19fa456",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"meterNumber\": \"2700005494265\",\r\n  \"meterType\": \"MPAN\",\r\n  \"fromDate\": \"2021-09-27T08:27:07.781Z\",\r\n  \"toDate\": \"2021-09-27T08:27:07.781Z\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dev-customerportalapi.azurewebsites.net/api/Meter/SimilarHomes",
+									"protocol": "https",
+									"host": [
+										"dev-customerportalapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"Meter",
+										"SimilarHomes"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Get Contract By Id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer e4e0af00238ad74b93e296742a65e35406c6dd70b17ae18d556ac94dc9913033",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Contract/GetContractById/430eac2d-8f3d-4341-975c-eecf481d6a98",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Contract",
+								"GetContractById",
+								"430eac2d-8f3d-4341-975c-eecf481d6a98"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Account Contracts",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer fcae8a85709da0a737531cc252cb00ec603afac655bf1b8008aa50776a9a9ed3",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Contract/GetAccountContracts",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Contract",
+								"GetAccountContracts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get ContractDocument By ContractId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 694daa097a37c3d905b0d41e4305a533e2ab23d8efd8bcdb10a085b373bf8fcf",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Contract/GetContractDocumentByContractId/3fbfe01f-0b0c-44f1-94eb-5494c8cb36fb",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Contract",
+								"GetContractDocumentByContractId",
+								"3fbfe01f-0b0c-44f1-94eb-5494c8cb36fb"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "My Contract Summary",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer f1d476acee1cfc589ac4d5c63c3c671dd09f150fcb8bb9ec697b26e12d4d9097",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Contract/GetContractSummaryByAccount",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Contract",
+								"GetContractSummaryByAccount"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Contracts For Renewal",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2d82a93c684003ecb7dad2814ef3d676f5dfbb2a4eb57da31fae3cd37b38dd5b",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Contract/ContractsForRenewal",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Contract",
+								"ContractsForRenewal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accounts Contractslist",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer ef7249f26569bf4e6cddf0b16d9b71ed20ea9b429729550e4d9e9eba95e1c85b",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Contract/Contractslist",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Contract",
+								"Contractslist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "My Journey",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer c4c02b4b03601ec627015bd00e2ab6cf7d70dc7cf0dc9daa135081ee1dd15811",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Contract/MyJourney?contractUId=7e869c45-690a-4ba2-9ee8-86320537db7e",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Contract",
+								"MyJourney"
+							],
+							"query": [
+								{
+									"key": "contractUId",
+									"value": "7e869c45-690a-4ba2-9ee8-86320537db7e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Contract Terms",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 3d7ae4cd6f7a317f3ce4da421894bee18213e575b93bf13d8baf01e05e4d271b",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetContractTerms?contractUId=a2c3d422-d242-47b1-b11a-d8ac151bd325",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetContractTerms"
+							],
+							"query": [
+								{
+									"key": "contractUId",
+									"value": "a2c3d422-d242-47b1-b11a-d8ac151bd325"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get contract Details for Approval",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 3d7ae4cd6f7a317f3ce4da421894bee18213e575b93bf13d8baf01e05e4d271b",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetContractDetails?contractUId=5996ac60-2f5f-4801-9269-dfa79ff512f3",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetContractDetails"
+							],
+							"query": [
+								{
+									"key": "contractUId",
+									"value": "5996ac60-2f5f-4801-9269-dfa79ff512f3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Approve Contract",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 6ec4539f1518798e973ae2abb18a5fca61e1a9f428f9eeadc9e5aa763f4fcdc8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"ContractUId\": \"a43d4740-4339-42a7-99dd-febeaf9a7d19\",\r\n  \"BankDetails\": {\r\n    \"ServiceUserNumber\": \"166591\",\r\n    \"BankAddress\": \"Test Bank address\",\r\n    \"AccountHolderName\": \"TestAccountHolder\",\r\n    \"Reference\": \"Ref 21356\",\r\n    \"BankAccountNumber\": \"Test 2613\",\r\n    \"DateOfBirth\": \"2021-10-08\",\r\n    \"BranchSortCode\": \"BSC214\",\r\n    \"Mandate\": \"\",\r\n    \"BankSignature\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA/A\",\r\n    \"IsOnPaymentPlan\": true,\r\n    \"StartDate\": \"\",\r\n    \"EndDate\": \"\",\r\n    \"Months\": 12,\r\n    \"AdditionalAmount\": 0,\r\n    \"CollectCurrentBillAmount\": true\r\n  },\r\n  \"CustomerDetails\": {\r\n    \"CustomerName\": \"Test name\",\r\n    \"CustomerPosition\": \"Test Position\",\r\n    \"CustomerSignature\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA/A\"\r\n  },\r\n  \"RejectionNote\": \"Contract has been Approved for 12 month duration\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/ApproveContract",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"ApproveContract"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Approve Quote",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer b7ec82b101e85051872b1d4acc336aa0ef5b6ba82c565d95f70dd783e4ec3f30",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"ContractUId\": \"a43d4740-4339-42a7-99dd-febeaf9a7d19\",\r\n  \"Duration\": 12,\r\n  \"ElectricityFuelType\": \"brown\",\r\n  \"GasOption\": \"\",\r\n  \"RejectionNote\": \"Approved for 12 months\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/ApproveQuote",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"ApproveQuote"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Bill",
+			"item": [
+				{
+					"name": "Get Bill Summary",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer 9a5560f81d5c7edad27722a7e717ec75ec7869024c4bdb1d85137d58b2d5cabe",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Billing/GetBillSummary",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Billing",
+								"GetBillSummary"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Billing Cycle",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer f453146b908a72b8343c94f8c591b7ba2614ae3d0c8301410e50c53ee469ba1d",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Page\": 1,\r\n  \"PageSize\": 10,\r\n  \"TotalRecords\": 0,\r\n  \"Query\": \"string\",\r\n  \"Filters\": [\r\n    {\"FieldName\": \"month\",\"FieldValue\": [\"7\"]},\r\n    {\"fieldName\":\"year\",\"fieldValue\":[2021]},\r\n    {\"fieldName\":\"pausedContractBill\",\"fieldValue\":[false]},\r\n    {\"fieldName\":\"excludeTestAccounts\",\"fieldValue\":[false]}\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetBillingCycleDetails",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetBillingCycleDetails"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Electricity Reads",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eb338df961af3b04809f5ffc76067769d919c4e101f0afbc9ba59e043b447d9c",
+								"type": "text"
+							},
+							{
+								"key": "Cont",
+								"value": "app",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Page\": 1,\r\n  \"PageSize\": 10,\r\n  \"TotalRecords\": 0,\r\n  \"Query\": \"string\",\r\n  \"Filters\": [\r\n    {\"FieldName\": \"month\",\"FieldValue\": [\"7\"]},\r\n    {\"fieldName\":\"year\",\"fieldValue\":[2021]},\r\n    {\"fieldName\":\"pausedContractBill\",\"fieldValue\":[false]},\r\n    {\"fieldName\":\"excludeTestAccounts\",\"fieldValue\":[false]}\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Customer/GetElectricityReadings",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetElectricityReadings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Bill By Contract",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer d5026baa3261eca4d8897fb55d9340ed3a76fccb28698f6df38d3043496ddf6a",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Billing/GetBillsByContract/e6d66c7f-9ba1-4f0a-b98b-3833689e429c",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Billing",
+								"GetBillsByContract",
+								"e6d66c7f-9ba1-4f0a-b98b-3833689e429c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bills via Email",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer a312fb4fc901a789329edec7f52d853dfbc56e5debdce18beebf6881c946616e",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"checkedContracts\": [\r\n        \"65a00699-cb87-4446-93af-3b70f8a8605f\"\r\n    ],\r\n    \"uncheckedContracts\": [\r\n        \"782f4edb-40ca-4c76-bf84-c2473d3edd93\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/UpdateContractsForMailRequest",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"UpdateContractsForMailRequest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Account Bills",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 675e3e3b425ea0fb685e36e36f00c913d57d5a6ec216b9f29f695169174b8fdb",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Billing/GetAccountBills",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Billing",
+								"GetAccountBills"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Group Bills by AccountNumber",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer d5026baa3261eca4d8897fb55d9340ed3a76fccb28698f6df38d3043496ddf6a",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Billing/GetGroupBill/2000856",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Billing",
+								"GetGroupBill",
+								"2000856"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Get Users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 438787b3f524d62865d0082c62edb2c231445dbe1513d83054748c8e54e54309",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/User/GetSecondaryUsers",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"User",
+								"GetSecondaryUsers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Customer",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2916c6fb4d935a43c7dbec60bac91de4c047f9652af9af6714a616955f6fc153",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Customer/GetCustomer",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Customer",
+								"GetCustomer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get UserInfo",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer 503a62b348101677830bafe72a2d4e966619e6a7d1b7b6c6f1e946f78a9ab44c",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetUserInfo",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetUserInfo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2916c6fb4d935a43c7dbec60bac91de4c047f9652af9af6714a616955f6fc153",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Customer/GetProfile",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Customer",
+								"GetProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddSecondaryUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"AllowLogin\": true,\r\n    \"Prefix\": \"Mr\",\r\n    \"Username\": \"customerUser\",\r\n    \"SecondaryEmail\": \"customeruserold@centralogic.net\",\r\n    \"MiddleName\": \"New\",\r\n    \"LastName\": \"User\",\r\n    \"FirstName\":\"abc\",\r\n    \"Address\":{\r\n        \"AddressLine1\":\"\",\r\n        \"AddressLine2\":\"\",\r\n        \"City\":\"hampshire\",\r\n        \"zipcode\":\"45125\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/InviteUser",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"InviteUser"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HorizonNxt",
+			"item": [
+				{
+					"name": "Get Electricity Meter Reading",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer a312fb4fc901a789329edec7f52d853dfbc56e5debdce18beebf6881c946616e",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"PageSize\": 10,\r\n  \"Filters\": [\r\n    {\r\n      \"FieldName\": \"meterNumber\",\r\n      \"FieldValue\": [\r\n        \"2000027303080\"\r\n      ]\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetElectricityReadings",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetElectricityReadings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get HH Meter Reading",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 887252eddadfccbb5a80839535c82928827f2be8ffaea8e296833e07e19fa456",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"MeterNumber\": \"2300000319339\",\r\n  \"Year\": 2021,\r\n  \"Month\": 8,\r\n  \"FromDate\": \"2021-08-01\",\r\n  \"TillDate\": \"2021-08-30\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetMonthlyHHConsumption",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetMonthlyHHConsumption"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get GAS Meter Reading",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer a312fb4fc901a789329edec7f52d853dfbc56e5debdce18beebf6881c946616e",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"PageSize\": 10,\r\n  \"Filters\": [\r\n    {\r\n      \"FieldName\": \"meterNumber\",\r\n      \"FieldValue\": [\r\n        \"2187465905\"\r\n      ]\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetGASReadings",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetGASReadings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Group Meter Reading",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer a312fb4fc901a789329edec7f52d853dfbc56e5debdce18beebf6881c946616e",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"page\": 0,\r\n    \"pageSize\": 10,\r\n    \"filters\": [\r\n        {\r\n            \"fieldName\": \"meterNumber\",\r\n            \"fieldValue\": [\r\n                \"2000027303080\"\r\n            ]\r\n        },\r\n        {\r\n            \"fieldName\": \"mpan\",\r\n            \"fieldValue\": [\r\n                \"2000027303080\"\r\n            ]\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetElectricityGroupReadings",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetElectricityGroupReadings"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ServiceRequest",
+			"item": [
+				{
+					"name": "Get Service Request by uId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2ccd22373def6eb535ea3a652e5ffd93f5e842b17fccd6403fd3c67e3e91df46",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/ServiceRequest/GetServiceRequest/36db6dd2-9c25-4cfb-816a-d61ecfc08068",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"ServiceRequest",
+								"GetServiceRequest",
+								"36db6dd2-9c25-4cfb-816a-d61ecfc08068"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Open Service Request of Account",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer aeb9be013a855107a01cd968c901bd887f034262c7da001e3d312ecc260178e7",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/ServiceRequest/GetOpenServiceRequest",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"ServiceRequest",
+								"GetOpenServiceRequest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddServiceRequest",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer aeb9be013a855107a01cd968c901bd887f034262c7da001e3d312ecc260178e7",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"requestType\": \"Moving Out\",\r\n  \"movingOut\":{\r\n      \"accountNumber\":\"1255415\",\r\n      \"movingCustomerName\":\"Test Name\",\r\n      \"contactNumber\":\"9090909090\",\r\n      \"emailAddress\":\"rohan.g@mindworx.in\",\r\n      \"forwardingAddress\":{\r\n         \"addressLine1\":\"Mindworx\",\r\n         \"addressLine2\":\"SBC Balewadi\",\r\n         \"city\":\"Pune\",\r\n         \"county\":\"Pune\",\r\n         \"zipCode\":\"422045\"\r\n      },\r\n      \"detailReason\":\"Expiry of Lease\",\r\n      \"moveOutDate\":\"2021-09-05T04:34:58.398Z\",\r\n      \"meterReadingOnMoveOutDate\":152.15,\r\n      \"landlordDetails\":{\r\n         \"name\":\"Lord Volemore\",\r\n         \"mobile\":\"9090909090\",\r\n         \"email\":\"rohan.g@mindworx.in\",\r\n         \"billingAddress\":{\r\n             \"addressLine1\":\"Mindworx\",\r\n         \"addressLine2\":\"SBC Balewadi\",\r\n         \"city\":\"Pune\",\r\n         \"county\":\"Pune\",\r\n         \"zipCode\":\"422045\"\r\n         }\r\n      },\r\n      \"incomingTenant\":{\r\n         \"tenantName\":\"string\",\r\n         \"address\":{\r\n             \"addressLine1\":\"Mindworx\",\r\n            \"addressLine2\":\"SBC Balewadi\",\r\n            \"city\":\"Pune\",\r\n            \"county\":\"Pune\",\r\n            \"zipCode\":\"422045\"\r\n         },\r\n         \"contactNumber\":\"9595959595\",\r\n         \"emailAddress\":\"rohan.g@mindworx.in\",\r\n         \"moveInDate\":\"2021-09-09T04:34:58.398Z\",\r\n         \"meterReadingOnMoveInDate\":\"155.90\"\r\n      },\r\n      \"supportingDocuments\":[\r\n         \"https://someblobstorgate.in/urloffile\"\r\n      ]\r\n   }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44368/api/ServiceRequest/AddServiceRequest",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"ServiceRequest",
+								"AddServiceRequest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Service Request Categories",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer aeb9be013a855107a01cd968c901bd887f034262c7da001e3d312ecc260178e7",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/ServiceRequest/GetServiceRequestCategoryList",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"ServiceRequest",
+								"GetServiceRequestCategoryList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Account Service Requests",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 9662ec25327bf8ef15759a8040451317c254c458f2c5077b0a339a25773d71ca",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/ServiceRequest/GetAllServiceRequests",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"ServiceRequest",
+								"GetAllServiceRequests"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "T and C",
+			"item": [
+				{
+					"name": "CheckTermsAndConditionStatus",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 7ebada984269dc6db13f0db89fc24e41a3115a728980163df32953d7f3236e4e",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Account/CheckTermsAndConditionStatus",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Account",
+								"CheckTermsAndConditionStatus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accept Terms And Condition",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 7ebada984269dc6db13f0db89fc24e41a3115a728980163df32953d7f3236e4e",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"agreementUId\":\"dad73870-afcc-4918-8ac9-7c420d639042\",\r\n    \"applicationTnCUId\":\"92a5b3fe-3dd5-4892-b604-edc93561c5c7\",\r\n    \"accepted\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Account/AcceptTandC",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Account",
+								"AcceptTandC"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FAQ",
+			"item": [
+				{
+					"name": "Get FAQs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2ccd22373def6eb535ea3a652e5ffd93f5e842b17fccd6403fd3c67e3e91df46",
+								"type": "text"
+							},
+							{
+								"key": "content",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/FAQ/Faqs",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"FAQ",
+								"Faqs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Faq Categories",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2ccd22373def6eb535ea3a652e5ffd93f5e842b17fccd6403fd3c67e3e91df46",
+								"type": "text"
+							},
+							{
+								"key": "content",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/FAQ/FaqCategories",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"FAQ",
+								"FaqCategories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Faqs By Category",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2ccd22373def6eb535ea3a652e5ffd93f5e842b17fccd6403fd3c67e3e91df46",
+								"type": "text"
+							},
+							{
+								"key": "content",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/FAQ/FaqsByCategory/Billing",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"FAQ",
+								"FaqsByCategory",
+								"Billing"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "FAQ By uId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2ccd22373def6eb535ea3a652e5ffd93f5e842b17fccd6403fd3c67e3e91df46",
+								"type": "text"
+							},
+							{
+								"key": "content",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/FAQ/Faqs/c713f51d-7a57-4gcb-8c0d-7a916fa5d9xy",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"FAQ",
+								"Faqs",
+								"c713f51d-7a57-4gcb-8c0d-7a916fa5d9xy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Faq for Testing",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2ccd22373def6eb535ea3a652e5ffd93f5e842b17fccd6403fd3c67e3e91df46",
+								"type": "text"
+							},
+							{
+								"key": "content",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"faqCategory\": \"Miscellaneous\",\r\n        \r\n    \"question\": \"Can i get a quote if i am not customer\",\r\n    \"answer\": \"Yes, I you can get the quote afte signing up\",\r\n\r\n    \"searchString\": \"new user quote, Leads\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/FAQ/AddFaq",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"FAQ",
+								"AddFaq"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dismiss Notification",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer c80dcd60109bdadc0ba7264ee6055bb762ea1805406cc4a0d231fed1df5e5594",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:44368/api/Notification/DismissNotification/fa05f9e8-a31b-4667-8ee1-668fb7f339d1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44368",
+							"path": [
+								"api",
+								"Notification",
+								"DismissNotification",
+								"fa05f9e8-a31b-4667-8ee1-668fb7f339d1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Chat",
+			"item": [
+				{
+					"name": "Chatbot Menu",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 83df7790c96f2bb6dbde12e9a45d310ccf0b07ce508de456125f5c10d70f63f2",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Chat/GetChatMenu",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Chat",
+								"GetChatMenu"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Chat By Page",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 83df7790c96f2bb6dbde12e9a45d310ccf0b07ce508de456125f5c10d70f63f2",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-customerportalapi.azurewebsites.net/api/Chat/GetCategoryOption/Contracts?name=Contracts",
+							"protocol": "https",
+							"host": [
+								"dev-customerportalapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Chat",
+								"GetCategoryOption",
+								"Contracts"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Contracts"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Quote",
+			"item": [
+				{
+					"name": "Get Contract Details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 2147eb7373e4a5272723a5ffe3dc9d405a47b4a28a5f923844956ec0aa310ffd",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetContractDetails?contractUId=31f36f36-ff50-4f2b-b203-78fbbce380fd",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"GetContractDetails"
+							],
+							"query": [
+								{
+									"key": "contractUId",
+									"value": "31f36f36-ff50-4f2b-b203-78fbbce380fd"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Leads",
+			"item": [
+				{
+					"name": "Add Leads",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Rohan Gaikar\",\r\n    \"address\": {\r\n    \"addressLine1\":\"LEAD\",\r\n    \"addressLine2\":\"sect-18,plotpark\",\r\n    \"city\":\"LEAD\",\r\n    \"zipCode\":\"MK3 6DP\"\r\n    },\r\n    \"contact\": {\r\n    \"email\":\"rohan.g@mindworx.in\",\r\n    \"mobile\":null,\r\n    \"phone\":\"9423086977\",\r\n    \"firstName\":\"Rohan\",\r\n    \"prefix\":\"\",\r\n    \"lastName\":\"Gaikar\",\r\n    \"username\":\"rohan.g@mindworx.in\"\r\n    },\r\n    \"customerCategory\":\"27feaebd-f327-4d4e-8843-f06dc03efc24\",\r\n    \"groupPayment\":false,\r\n    \"groupContract\":false,\r\n    \"isTestAccount\":true,\r\n    \"isTemporaryAccount\":true,\r\n    \"groupBilling\":false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/AddLead",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"AddLead"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check User Exist by Email",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/IsEmailExists?emailId=Customertest@gmail.com",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"IsEmailExists"
+							],
+							"query": [
+								{
+									"key": "emailId",
+									"value": "Customertest@gmail.com"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check User Exixt by Username",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/IsUserNameExists?userName=customertest@gmail.com",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"IsUserNameExists"
+							],
+							"query": [
+								{
+									"key": "userName",
+									"value": "customertest@gmail.com"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Customer Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"UserName\": \"xyztesting@centralogic.net\", \"Password\": \"Password90#\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/Login",
+					"protocol": "https",
+					"host": [
+						"dev-ampadminapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Account Info",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 29e6ed27ea24fd5cd1eb34adc74b565ccbc543d022a711643d9961c6fca4ef5a",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dev-customerportalapi.azurewebsites.net/api/Customer/GetAccountInfo",
+					"protocol": "https",
+					"host": [
+						"dev-customerportalapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"GetAccountInfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Testing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "Testing",
+					"host": [
+						"Testing"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "My Usage Summary",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 00e07e2986dee86f52bf3bbb1b8620d8d3afe52a3ac8842e073532c088e3d165",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44368/api/Meter/GetMyUsageSummary",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						"Meter",
+						"GetMyUsageSummary"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Associated Broker List",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 18579a983e4c928cddca058579fa93f081d37231b781327dd18f312c4e848d46",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44368/api/Broker/GetAccountBrokers",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						"Broker",
+						"GetAccountBrokers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AboutUs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a312fb4fc901a789329edec7f52d853dfbc56e5debdce18beebf6881c946616e",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dev-customerportalapi.azurewebsites.net/api/Account/AboutUs",
+					"protocol": "https",
+					"host": [
+						"dev-customerportalapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Account",
+						"AboutUs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Meter Reading",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 675e3e3b425ea0fb685e36e36f00c913d57d5a6ec216b9f29f695169174b8fdb",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"ContractUId\": \"6bf223b3-82e2-4ddb-8a01-37e53636ec11\",\r\n  \"MPAN\": \"1421392000000\",\r\n  \"MeterNumber\": \"1421392000000\",\r\n  \"ReadingType\": \"null\",\r\n  \"ReadingDate\": \"2021-09-16\",\r\n  \"ReadReceivedDate\": \"2021-09-16\",\r\n  \"Source\": \"Customer\",\r\n  \"electricityReads\": [\r\n    {\r\n      \"MeterSerialNumber\": \"E11Z43894\",\r\n      \"MeterRegisterId\": \"null\",\r\n      \"TPR\": \"00001\",\r\n      \"IsActual\": true,\r\n      \"MeterReading\": 2301\r\n    }\r\n  ],\r\n  \"UploadedImageFiles\": [\r\n    {\r\n      \"Name\": \"https://qasabillingapp.blob.core.windows.net/meter-reading-files/27bc07b2-b064-4ad7-9fb3-9f30f73959ee_JPG.jpg\",\r\n      \"Size\": 0.09\r\n    }\r\n  ],\r\n  \"MandatoryNote\": \"test read Mwx testing\"\r\n}"
+				},
+				"url": {
+					"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/PostMeterReadingForElectricity",
+					"protocol": "https",
+					"host": [
+						"dev-ampadminapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"PostMeterReadingForElectricity"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Post Meter Reading",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 675e3e3b425ea0fb685e36e36f00c913d57d5a6ec216b9f29f695169174b8fdb",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"ContractUId\": \"6bf223b3-82e2-4ddb-8a01-37e53636ec11\",\r\n  \"MPAN\": \"1421392000000\",\r\n  \"MeterNumber\": \"1421392000000\",\r\n  \"ReadingType\": \"null\",\r\n  \"ReadingDate\": \"2021-09-16\",\r\n  \"ReadReceivedDate\": \"2021-09-16\",\r\n  \"Source\": \"Customer\",\r\n  \"electricityReads\": [\r\n    {\r\n      \"MeterSerialNumber\": \"E11Z43894\",\r\n      \"MeterRegisterId\": \"null\",\r\n      \"TPR\": \"00001\",\r\n      \"IsActual\": true,\r\n      \"MeterReading\": 2301\r\n    }\r\n  ],\r\n  \"UploadedImageFiles\": [\r\n    {\r\n      \"Name\": \"https://qasabillingapp.blob.core.windows.net/meter-reading-files/27bc07b2-b064-4ad7-9fb3-9f30f73959ee_JPG.jpg\",\r\n      \"Size\": 0.09\r\n    }\r\n  ],\r\n  \"MandatoryNote\": \"test read Mwx testing\"\r\n}"
+						},
+						"url": {
+							"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/PostMeterReadingForElectricity",
+							"protocol": "https",
+							"host": [
+								"dev-ampadminapi",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"PostMeterReadingForElectricity"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "PriviousReadingGetElectricityGroupReadings",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8610af9eab826b2d05a44a83558534529fdc446adcc0751329983d972585ead",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Filters\": [\n    {\n        \"FieldName\": \"ContractUId\",\n        \"FieldValue\": [\n            \"1343e77c-1e8f-4787-810e-70305f95b310\"\n        ]\n    },\n    {\n        \"FieldName\": \"MPAN\",\n        \"FieldValue\": [\n            \"1100039240147\"\n        ]\n    }\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev-ampadminapi.azurewebsites.net/api/Customer/GetElectricityGroupReadings",
+					"protocol": "https",
+					"host": [
+						"dev-ampadminapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"GetElectricityGroupReadings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PriviousReadingGetElectricityGroupReadings Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8610af9eab826b2d05a44a83558534529fdc446adcc0751329983d972585ead",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Filters\": [\n    {\n        \"FieldName\": \"ContractUId\",\n        \"FieldValue\": [\n            \"1343e77c-1e8f-4787-810e-70305f95b310\"\n        ]\n    },\n    {\n        \"FieldName\": \"MPAN\",\n        \"FieldValue\": [\n            \"1100039240147\"\n        ]\n    }\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev-customerportalapi.azurewebsites.net/api/Contract/MyJourney?contractUId=782f4edb-40ca-4c76-bf84-c2473d3edd93",
+					"protocol": "https",
+					"host": [
+						"dev-customerportalapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Contract",
+						"MyJourney"
+					],
+					"query": [
+						{
+							"key": "contractUId",
+							"value": "782f4edb-40ca-4c76-bf84-c2473d3edd93"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer Categories",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 0291d518e6afb9f3e821582dd7a5a4d586745fe0c2a4557e9886d266049b4def",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dev-customerportalapi.azurewebsites.net/api/Customer/GetCustomerCategory",
+					"protocol": "https",
+					"host": [
+						"dev-customerportalapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"GetCustomerCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "My Usage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 00e07e2986dee86f52bf3bbb1b8620d8d3afe52a3ac8842e073532c088e3d165",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"meterNumber\": \"2700005494265\",\r\n  \"meterType\": \"MPAN\",\r\n  \"fromDate\": \"2021-02-01\",\r\n  \"toDate\": \"2021-02-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44368/api/Meter/GetMyUsage",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						"Meter",
+						"GetMyUsage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "My Usage Gas",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 00e07e2986dee86f52bf3bbb1b8620d8d3afe52a3ac8842e073532c088e3d165",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"meterNumber\": \"2970938601\",\r\n  \"meterType\": \"MPRN\",\r\n  \"fromDate\": \"2019-02-01\",\r\n  \"toDate\": \"2021-02-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44368/api/Meter/GetMyUsage",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						"Meter",
+						"GetMyUsage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Verify User status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev-customerportalapi.azurewebsites.net/api/User/userStatus?email=rohan.gaikar%40mindworx.in",
+					"protocol": "https",
+					"host": [
+						"dev-customerportalapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"User",
+						"userStatus"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "rohan.gaikar%40mindworx.in"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,191 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="'Mohammed Abdoola'";RSVP=TRUE:mailto:mohammed@hypercheck.co.za
+ATTENDEE;CN=Goolam.j;RSVP=TRUE:mailto:goolam.j@hypercheck.co.za
+ATTENDEE;CN="Baba || MindWorx";RSVP=TRUE:mailto:baba@mindworx.in
+ATTENDEE;CN=anuj.b;RSVP=TRUE:mailto:anuj.b@mindworx.in
+CLASS:PUBLIC
+CREATED:20211007T134344Z
+DESCRIPTION:[Hypercheck] Projct progress demo \nFri\, Oct 8\, 2021 5:30 PM 
+	- 6:30 PM (IST)  / 2:00PM – 3:00PM (SAST)\n\nPlease join my meeting from
+	 your computer\, tablet or smartphone. \n\nhttps://global.gotomeeting.com/
+	join/753250125 \n\nYou can also dial in using your phone. \n(For supported
+	 devices\, tap a one-touch number below to join instantly.) \n\nUnited Sta
+	tes: +1 (571) 317-3116 \n- One-touch: tel:+15713173116\,\,753250125# <tel:
+	+15713173116\,\,753250125>  \n\nAccess Code: 753-250-125 \n\n \n\nMore pho
+	ne numbers: \n(For supported devices\, tap a one-touch number below to joi
+	n instantly.) \n\nAustralia: +61 2 9091 7603 \n- One-touch: tel:+612909176
+	03\,\,753250125# <tel:+61290917603\,\,753250125>  \n\nAustria: +43 7 2081 
+	5337 \n- One-touch: tel:+43720815337\,\,753250125# <tel:+43720815337\,\,75
+	3250125>  \n\nBelgium: +32 28 93 7002 \n- One-touch: tel:+3228937002\,\,75
+	3250125# <tel:+3228937002\,\,753250125>  \n\nCanada: +1 (647) 497-9373 \n-
+	 One-touch: tel:+16474979373\,\,753250125# <tel:+16474979373\,\,753250125>
+	  \n\nDenmark: +45 32 72 03 69 \n- One-touch: tel:+4532720369\,\,753250125
+	# <tel:+4532720369\,\,753250125>  \n\nFinland: +358 923 17 0556 \n- One-to
+	uch: tel:+358923170556\,\,753250125# <tel:+358923170556\,\,753250125>  \n\
+	nFrance: +33 187 210 241 \n- One-touch: tel:+33187210241\,\,753250125# <te
+	l:+33187210241\,\,753250125>  \n\nGermany: +49 892 0194 301 \n- One-touch:
+	 tel:+498920194301\,\,753250125# <tel:+498920194301\,\,753250125>  \n\nIre
+	land: +353 15 360 756 \n- One-touch: tel:+35315360756\,\,753250125# <tel:+
+	35315360756\,\,753250125>  \n\nItaly: +39 0 230 57 81 80 \n- One-touch: te
+	l:+390230578180\,\,753250125# <tel:+390230578180\,\,753250125>  \n\nNether
+	lands: +31 207 941 375 \n- One-touch: tel:+31207941375\,\,753250125# <tel:
+	+31207941375\,\,753250125>  \n\nNew Zealand: +64 9 282 9510 \n- One-touch:
+	 tel:+6492829510\,\,753250125# <tel:+6492829510\,\,753250125>  \n\nNorway:
+	 +47 21 93 37 37 \n- One-touch: tel:+4721933737\,\,753250125# <tel:+472193
+	3737\,\,753250125>  \n\nSpain: +34 932 75 1230 \n- One-touch: tel:+3493275
+	1230\,\,753250125# <tel:+34932751230\,\,753250125>  \n\nSweden: +46 853 52
+	7 818 \n- One-touch: tel:+46853527818\,\,753250125# <tel:+46853527818\,\,7
+	53250125>  \n\nSwitzerland: +41 225 4599 60 \n- One-touch: tel:+4122545996
+	0\,\,753250125# <tel:+41225459960\,\,753250125>  \n\nUnited Kingdom: +44 8
+	08 178 0872 \n- One-touch: tel:+448081780872\,\,753250125# <tel:+448081780
+	872\,\,753250125>  \n\n \n\nNew to GoToMeeting? Get the app now and be rea
+	dy when your first meeting starts: https://global.gotomeeting.com/install/
+	753250125\n\n
+DTEND;TZID="India Standard Time":20211008T183000
+DTSTAMP:20211007T134344Z
+DTSTART;TZID="India Standard Time":20211008T173000
+LAST-MODIFIED:20211007T134344Z
+LOCATION:GoToMeeting
+ORGANIZER;CN="Paresh Kamat | MindWorx Software":mailto:paresh@mindworx.in
+PRIORITY:1
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:GoToMeeting Invitation - [Hypercheck] Projct progres
+	s demo
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000090C45872AFBBD701000000000000000
+	0100000002FC910D9F861CA4A92B893098C5D0694
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv=Co
+	ntent-Type content="text/html\; charset=us-ascii"><meta name=Generator con
+	tent="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Definition
+	s */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 
+	3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 
+	2 4\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.MsoNorma
+	l\n	{margin:0in\;\n	margin-bottom:.0001pt\;\n	font-size:12.0pt\;\n	font-fa
+	mily:"Times New Roman"\,serif\;}\na:link\, span.MsoHyperlink\n	{mso-style-
+	priority:99\;\n	color:blue\;\n	text-decoration:underline\;}\na:visited\, s
+	pan.MsoHyperlinkFollowed\n	{mso-style-priority:99\;\n	color:purple\;\n	tex
+	t-decoration:underline\;}\np\n	{mso-style-priority:99\;\n	mso-margin-top-a
+	lt:auto\;\n	margin-right:0in\;\n	mso-margin-bottom-alt:auto\;\n	margin-lef
+	t:0in\;\n	font-size:12.0pt\;\n	font-family:"Times New Roman"\,serif\;}\np.
+	msonormal0\, li.msonormal0\, div.msonormal0\n	{mso-style-name:msonormal\;\
+	n	mso-style-priority:99\;\n	mso-margin-top-alt:auto\;\n	margin-right:0in\;
+	\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-size:12.0pt\;\n
+		font-family:"Times New Roman"\,serif\;}\nspan.EmailStyle19\n	{mso-style-t
+	ype:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;}\n.MsoChpDefa
+	ult\n	{mso-style-type:export-only\;\n	font-size:10.0pt\;}\n@page WordSecti
+	on1\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSe
+	ction1\n	{page:WordSection1\;}\n--></style><!--[if gte mso 9]><xml>\n<o:sh
+	apedefaults v:ext="edit" spidmax="1026" />\n</xml><![endif]--><!--[if gte 
+	mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1"
+	 />\n</o:shapelayout></xml><![endif]--></head><body lang=EN-US link=blue v
+	link=purple><div class=WordSection1><p><span style='font-family:"Calibri"\
+	,sans-serif'>[Hypercheck] Projct progress demo</span> <br><span style='fon
+	t-family:"Calibri"\,sans-serif'>Fri\, Oct 8\, 2021 5:30 PM - 6:30 PM (IST)
+	</span>&nbsp\; / 2:00PM &#8211\; 3:00PM (SAST)<o:p></o:p></p><p><span styl
+	e='font-family:"Calibri"\,sans-serif'>Please join my meeting from your com
+	puter\, tablet or smartphone.</span> <o:p></o:p></p><p><span style='font-f
+	amily:"Calibri"\,sans-serif'><a href="https://global.gotomeeting.com/join/
+	753250125">https://global.gotomeeting.com/join/753250125</a></span> <o:p><
+	/o:p></p><p><span style='font-family:"Calibri"\,sans-serif'>You can also d
+	ial in using your phone.</span> <br><span style='font-family:"Calibri"\,sa
+	ns-serif'>(For supported devices\, tap a one-touch number below to join in
+	stantly.)</span> <o:p></o:p></p><p><span style='font-family:"Calibri"\,san
+	s-serif'>United States: +1 (571) 317-3116</span> <br><span style='font-fam
+	ily:"Calibri"\,sans-serif'>- One-touch: <a href="tel:+15713173116\,\,75325
+	0125">tel:+15713173116\,\,753250125#</a></span> <o:p></o:p></p><p><span st
+	yle='font-family:"Calibri"\,sans-serif'>Access Code: 753-250-125</span> <o
+	:p></o:p></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p><p><span style='font
+	-family:"Calibri"\,sans-serif'>More phone numbers:</span> <br><span style=
+	'font-family:"Calibri"\,sans-serif'>(For supported devices\, tap a one-tou
+	ch number below to join instantly.)</span> <o:p></o:p></p><p><span style='
+	font-family:"Calibri"\,sans-serif'>Australia: +61 2 9091 7603</span> <br><
+	span style='font-family:"Calibri"\,sans-serif'>- One-touch: <a href="tel:+
+	61290917603\,\,753250125">tel:+61290917603\,\,753250125#</a></span> <o:p><
+	/o:p></p><p><span style='font-family:"Calibri"\,sans-serif'>Austria: +43 7
+	 2081 5337</span> <br><span style='font-family:"Calibri"\,sans-serif'>- On
+	e-touch: <a href="tel:+43720815337\,\,753250125">tel:+43720815337\,\,75325
+	0125#</a></span> <o:p></o:p></p><p><span style='font-family:"Calibri"\,san
+	s-serif'>Belgium: +32 28 93 7002</span> <br><span style='font-family:"Cali
+	bri"\,sans-serif'>- One-touch: <a href="tel:+3228937002\,\,753250125">tel:
+	+3228937002\,\,753250125#</a></span> <o:p></o:p></p><p><span style='font-f
+	amily:"Calibri"\,sans-serif'>Canada: +1 (647) 497-9373</span> <br><span st
+	yle='font-family:"Calibri"\,sans-serif'>- One-touch: <a href="tel:+1647497
+	9373\,\,753250125">tel:+16474979373\,\,753250125#</a></span> <o:p></o:p></
+	p><p><span style='font-family:"Calibri"\,sans-serif'>Denmark: +45 32 72 03
+	 69</span> <br><span style='font-family:"Calibri"\,sans-serif'>- One-touch
+	: <a href="tel:+4532720369\,\,753250125">tel:+4532720369\,\,753250125#</a>
+	</span> <o:p></o:p></p><p><span style='font-family:"Calibri"\,sans-serif'>
+	Finland: +358 923 17 0556</span> <br><span style='font-family:"Calibri"\,s
+	ans-serif'>- One-touch: <a href="tel:+358923170556\,\,753250125">tel:+3589
+	23170556\,\,753250125#</a></span> <o:p></o:p></p><p><span style='font-fami
+	ly:"Calibri"\,sans-serif'>France: +33 187 210 241</span> <br><span style='
+	font-family:"Calibri"\,sans-serif'>- One-touch: <a href="tel:+33187210241\
+	,\,753250125">tel:+33187210241\,\,753250125#</a></span> <o:p></o:p></p><p>
+	<span style='font-family:"Calibri"\,sans-serif'>Germany: +49 892 0194 301<
+	/span> <br><span style='font-family:"Calibri"\,sans-serif'>- One-touch: <a
+	 href="tel:+498920194301\,\,753250125">tel:+498920194301\,\,753250125#</a>
+	</span> <o:p></o:p></p><p><span style='font-family:"Calibri"\,sans-serif'>
+	Ireland: +353 15 360 756</span> <br><span style='font-family:"Calibri"\,sa
+	ns-serif'>- One-touch: <a href="tel:+35315360756\,\,753250125">tel:+353153
+	60756\,\,753250125#</a></span> <o:p></o:p></p><p><span style='font-family:
+	"Calibri"\,sans-serif'>Italy: +39 0 230 57 81 80</span> <br><span style='f
+	ont-family:"Calibri"\,sans-serif'>- One-touch: <a href="tel:+390230578180\
+	,\,753250125">tel:+390230578180\,\,753250125#</a></span> <o:p></o:p></p><p
+	><span style='font-family:"Calibri"\,sans-serif'>Netherlands: +31 207 941 
+	375</span> <br><span style='font-family:"Calibri"\,sans-serif'>- One-touch
+	: <a href="tel:+31207941375\,\,753250125">tel:+31207941375\,\,753250125#</
+	a></span> <o:p></o:p></p><p><span style='font-family:"Calibri"\,sans-serif
+	'>New Zealand: +64 9 282 9510</span> <br><span style='font-family:"Calibri
+	"\,sans-serif'>- One-touch: <a href="tel:+6492829510\,\,753250125">tel:+64
+	92829510\,\,753250125#</a></span> <o:p></o:p></p><p><span style='font-fami
+	ly:"Calibri"\,sans-serif'>Norway: +47 21 93 37 37</span> <br><span style='
+	font-family:"Calibri"\,sans-serif'>- One-touch: <a href="tel:+4721933737\,
+	\,753250125">tel:+4721933737\,\,753250125#</a></span> <o:p></o:p></p><p><s
+	pan style='font-family:"Calibri"\,sans-serif'>Spain: +34 932 75 1230</span
+	> <br><span style='font-family:"Calibri"\,sans-serif'>- One-touch: <a href
+	="tel:+34932751230\,\,753250125">tel:+34932751230\,\,753250125#</a></span>
+	 <o:p></o:p></p><p><span style='font-family:"Calibri"\,sans-serif'>Sweden:
+	 +46 853 527 818</span> <br><span style='font-family:"Calibri"\,sans-serif
+	'>- One-touch: <a href="tel:+46853527818\,\,753250125">tel:+46853527818\,\
+	,753250125#</a></span> <o:p></o:p></p><p><span style='font-family:"Calibri
+	"\,sans-serif'>Switzerland: +41 225 4599 60</span> <br><span style='font-f
+	amily:"Calibri"\,sans-serif'>- One-touch: <a href="tel:+41225459960\,\,753
+	250125">tel:+41225459960\,\,753250125#</a></span> <o:p></o:p></p><p><span 
+	style='font-family:"Calibri"\,sans-serif'>United Kingdom: +44 808 178 0872
+	</span> <br><span style='font-family:"Calibri"\,sans-serif'>- One-touch: <
+	a href="tel:+448081780872\,\,753250125">tel:+448081780872\,\,753250125#</a
+	></span> <o:p></o:p></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p><p><span 
+	style='font-family:"Calibri"\,sans-serif'>New to GoToMeeting? Get the app 
+	now and be ready when your first meeting starts: <a href="https://global.g
+	otomeeting.com/install/753250125">https://global.gotomeeting.com/install/7
+	53250125</a></span><o:p></o:p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:2
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+

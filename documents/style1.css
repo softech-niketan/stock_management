@@ -1,0 +1,214 @@
+.layout-fixed .brand-link {
+    width: 156px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+[class*=sidebar-dark] .brand-link {
+    border-bottom: none;;
+}
+
+.layout-fixed .wrapper .sidebar {
+    border-top :1px solid #4f5962;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #f36c24;
+    color: #fff;
+}
+
+.content-header h1 {
+    font-size: 1.2rem;
+}
+
+.content-header {
+    padding: 6px .5rem;
+}
+
+.text-main {
+    color: #f36c24;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background: #8c8c8c;
+    color: #fff;
+}
+
+.btn-group-vertical>.btn, 
+.btn-group>.btn {
+    border: 1px solid #adadad;
+}
+
+.page-item.active .page-link {
+    background-color: #f36c24;
+    border-color: #f36c24;
+}
+
+a {
+    color: #f36c24;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #f36c24;
+    border: 1px solid #f36c24 !important;
+}
+
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: normal;
+    letter-spacing: normal;
+    font-size: 0.9rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.0rem + 2px);
+    padding: .1rem .5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    
+}
+
+.bootstrap-datetimepicker-widget {
+    padding: 5px;
+}
+
+[class*=icheck-]>input:first-child+input[type=hidden]+label::before, 
+[class*=icheck-]>input:first-child+label::before {
+    background: #fff;
+}
+
+.store-tabs .card-header {
+    background-color: #ececec;
+    border: 1px solid rgba(0,0,0,.125)
+}
+
+.store-tabs .card-header .nav-pills {
+    padding: 0px;
+}
+
+.store-tabs .card-header .nav-pills .nav-link {
+    border-radius: .25rem .25rem 0 0;
+    border: 1px solid #bfbfbf;
+}
+
+.store-tabs .table td {
+    padding: .3rem;
+}
+
+.bg-light-gray {
+    background: #e0e0e0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.input-group-text {
+    padding: .255rem .75rem;
+}
+
+.border-top {
+    border-top: 1px solid #c9c9ca!important;
+}
+
+.table td, .table th {
+    padding: .85rem .45rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 0.9rem;
+    line-height: 16px;
+}
+
+.profile-username {
+    font-size: 16px;
+    margin-top: 6px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.bg-orange {
+    background-color: #f36c24!important;
+}
+
+.shopping-cart .thumbnail{
+    margin-right: 10px;
+  }
+
+  .shopping-cart .media-heading {
+      font-size: 1rem;
+  }
+
+  #tax {
+    border-top: 1px lightgray solid;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.btn-orange {
+    border: none;
+    border-radius: 10px;
+    background-color: #f36c24;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.btn-orange:hover {
+    background-color: #c9500f;
+    color: #fff;
+}
+
+#checkout {
+    float: left;
+}
+
+#check-amt {
+    float: right;
+}
+
+.acc-info hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.acc-info p {
+    margin-top: 0;
+}
+
+.timeline {
+    margin: 0 0 15px;
+}
+
+.acc-info .card-body {
+    padding: 1rem;
+}
+
+.acc-info .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: .45rem 1.25rem;
+}
+
+.list-group-item:last-child {
+    border:none;
+    padding-bottom: .55rem;
+}
+
+
+.dataTable thead th {
+    background: #f36c24;
+}
+
+.preloader {
+	background: rgb(244 246 249 / 26%) ;
+}
+
+@media (max-width: 767.98px) {
+.form-group {
+    margin-bottom: 0.4rem;
+}
+}
